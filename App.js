@@ -8,7 +8,7 @@ import LoginHOC from './src/hoc/login';
 
 const App = () => {
 
-    const [loginName, setLoginName] = useState('josimar');
+    const [loginName, setLoginName] = useState('');
 
     return (
         <Root>
