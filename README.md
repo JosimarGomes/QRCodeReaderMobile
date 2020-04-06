@@ -19,3 +19,14 @@ a biblioteca "Native Base" para a padronização de componentes.
 
 * Tratamento de erros
 * Testes unitários
+
+## Executando o projeto
+*Estou pressupondo que seu ambiente já está preparado para executar um projeto react-native.*
+*Caso precise de ajuda para configurar o ambiente: https://reactnative.dev/docs/environment-setup*
+
+* Clone o repositório
+* Na pasta raiz do projeto, instale as dependências com “npm install”
+* Em seguida, levante o servidor de desenvolvimento com “npm start”
+* Abra uma nova guia no terminal na mesma pasta raiz do projeto, em seguida inicie o aplicativo com “npm run android”
+* Abra o código em "/src/components/ProductsHistoricList/index.js" e altere o endereço de IP para o IP interno de rede da sua máquina.
+* Pronto!
