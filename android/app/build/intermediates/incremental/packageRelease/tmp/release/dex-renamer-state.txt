@@ -1,0 +1,4 @@
+#Tue Apr 07 09:09:10 BRT 2020
+base.0=/home/josimar/Documentos/projetos/pessoal/QRCodeReaderMobile/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
