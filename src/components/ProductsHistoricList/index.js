@@ -35,7 +35,7 @@ export default function ProductsHistoricList({ loginName }) {
         setLoading(true);
         
         try {
-            const { data } = await axios.get(`http://192.168.1.11:3333/api/v1/product-logs?userId=${loginName}`);
+            const { data } = await axios.get(`https://apiqrcodeproductsmanager.herokuapp.com/api/v1/product-logs?userId=${loginName}`);
             setProductsHistoric(data);
             setLoading(false);
         } catch(err) {
